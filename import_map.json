@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "fmt/": "https://deno.land/std/fmt/",
+    "postgres": "https://deno.land/x/postgres/mod.ts",
+    "servest": "https://deno.land/x/servest/mod.ts"
+  }
+}

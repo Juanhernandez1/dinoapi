@@ -1,0 +1,26 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "env": {
+    "TOKEN": "SUPER SECRET TOKEN",
+    "PORT": "8082"
+  },
+  "allow": {
+    "env": true,
+    "net": true
+  },
+  "scripts": {
+    "start": {
+      "cmd": "deno run app.js",
+      "desc": "run my app.js file",
+      "importmap": "import_map.json",
+      "unstable": true,
+      "env": {
+        "DB":"denoland",
+        "PASS": "1234",
+        "USER":"postgres",
+        "HOST":"localhost",
+        "PORTDB": "5432"
+      }
+    }
+  }
+}
